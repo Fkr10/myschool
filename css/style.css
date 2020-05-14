@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5,
 .bg-text-line {
   display: inline;
   background: #000;
-  -webkit-box-shadow: 20px 0 0 #000, -20px 0 0 #000;
+  /* -webkit-box-shadow: 20px 0 0 #000, -20px 0 0 #000; */
   box-shadow: 20px 0 0 #000, -20px 0 0 #000; }
 
 .text-white-opacity-05 {
@@ -647,9 +647,10 @@ h1, h2, h3, h4, h5,
 
 .slide-1 {
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+opacity: .5rem; }
   .slide-1:before {
-    content: "";
+    /* content: "   "; */
     position: absolute;
     height: 100%;
     width: 100%;
@@ -662,7 +663,7 @@ h1, h2, h3, h4, h5,
   .slide-1 .slide-text {
     opacity: 0;
     visibility: hidden;
-    margin-top: 50px;
+    margin-top: 10px;
     -webkit-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
     transition: .3s all ease-in-out; }
@@ -1124,3 +1125,8 @@ h1, h2, h3, h4, h5,
         .comment-list li .comment-body .reply:hover {
           color: #000;
           background: #e3e3e3; }
+.logo img{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
