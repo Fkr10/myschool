@@ -1016,19 +1016,18 @@ opacity: .5rem; }
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;
   top: 0;
-  position: relative; }
+  position: relative;
+text-align: center; }
   .course .course-inner-text {
     position: relative;
     padding-top: 35px !important; }
   .course .course-price {
-    position: absolute;
+   position: relative;
     padding: 10px 15px;
     background: #7971ea;
     color: #fff;
     top: -20px;
-    right: 0;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px; }
+   border-radius: 4px;}
   .course .meta {
     font-size: .9rem;
     display: block;
@@ -1039,7 +1038,8 @@ opacity: .5rem; }
     font-size: 1.15rem;
     color: #000; }
   .course .stats {
-    font-size: .9rem; }
+    font-size: .9rem; 
+  text-align: center;}
   .course:hover {
     top: -10px;
     -webkit-box-shadow: 0 2px 22px -1px rgba(0, 0, 0, 0.3);
